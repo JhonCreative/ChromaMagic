@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChromaMagic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcomeScreen" class="welcome-screen">
+        <h1 id="title">¡Bienvenido a ChromaMagic!</h1>
+        <p>¡Prepárate para un viaje colorido! Cambia el color de la página con un clic en el botón o ingresa tu propio código hexadecimal para ver tu color personalizado en acción. ¡Diviértete con los colores!</p>
+    </div>
+
+    <div id="mainContent" class="container hidden">
+        <h1 id="welcomeMessage">¡Explora los Colores!</h1>
+        <button onclick="changeColor()">Haz clic para cambiar el color de la página</button>
+        <input type="text" id="colorInput" placeholder="Introduce un color hexadecimal (e.g., #FF5733)">
+        <button onclick="applyHexColor()">Aplicar color hexadecimal</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
